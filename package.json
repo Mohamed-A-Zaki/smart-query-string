@@ -1,10 +1,13 @@
 {
   "name": "smart-query-string",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A lightweight TypeScript utility for parsing and manipulating query strings — no dependencies.",
-  "main": "dist/index.cjs",
-  "module": "dist/index.mjs",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
