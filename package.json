@@ -1,0 +1,30 @@
+{
+  "name": "smart-query-string",
+  "version": "1.0.0",
+  "description": "A lightweight TypeScript utility for parsing and manipulating query strings — no dependencies.",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "query-string",
+    "url",
+    "typescript",
+    "query",
+    "params",
+    "utility"
+  ],
+  "author": "Mohamed Zaki",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/query-string-lite"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
